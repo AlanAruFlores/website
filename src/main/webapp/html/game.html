@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Kanit:wght@300&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Kanit:wght@300&family=Mouse+Memoirs&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/style.css">
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+	<header class="row">
+		<h1>TaTeTi</h1>
+	</header>	
+	<main class=" row container">
+		<table>
+			<tbody>
+			<tr id="fila1">	
+			</tr>
+			<tr id="fila2">	
+			</tr>
+			<tr id="fila3">	
+			</tr>
+			</tbody>			
+		</table>
+			<form class="formularioTaTeTi" action="../controller/controllerPoints.jsp" method="POST">
+				<h2>Puntaje Total</h2>
+				<input name = "puntos" id="idPuntaje" type="number" name="nombreUsuario" required class="form-control" placeholder="Puntos" aria-label="points" aria-describedby="basic-addon1" value="0" readonly="readonly">
+				<button class="btn">Ver Posicionamiento</button>
+			</form>
+	</main>
+	<footer>
+		<ul>
+			<li>Terminos</li>
+			<li>Condiciones</li>
+			<li>Informacion</li>
+			<li>Sobre Mi</li>
+		</ul>
+	</footer>
+	<script src="../js/funcionalidad.js" type="module"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

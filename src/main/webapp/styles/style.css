@@ -1,0 +1,158 @@
+body{
+	background-color:#3E8DF4;
+	font-family:'Mouse Memoirs', sans-serif;
+}
+/*HEADER*/
+header{
+	background:#2980F2;
+	height: 80px;
+}
+header h1{
+	font-size: 60px;
+	margin-top:8px;
+	text-align:center;
+	color:#CFE2FC;
+}
+header h1:hover{
+	color:#eee;
+	font-size:64px;
+}
+/*MAIN*/
+.miFormulario{
+	margin-top:80px;
+}
+.Formulario{
+	text-align: center;
+	background-color:#6EAAF7;
+}
+.Formulario h2{
+	font-size:68px;
+	color: #CFE2FC;
+}
+.Formulario h2:hover{
+	color:#eee;
+}
+.Formulario{
+	width : 440px;
+	height : 400px;
+	margin: 0 auto;
+	padding:8px;
+	border-radius: 4px;
+}
+.Formulario input{
+	border-radius:0px;
+	width: 420px;
+	height:48px;
+	margin:0 auto;
+	margin-top: 40px;
+	background-color:#9FCEFA
+}
+.Formulario input:visited{
+	background-color:#9FCEFA
+}
+.Formulario input::placeholder{
+	color:#eee;
+	font-size:24px;
+}
+.Formulario button{
+	border-radius:0px;
+	width:420px;
+	height:48px;
+	margin: 0 0px;
+	margin-top: 48px;
+	background-color:#CFE2FC;
+	font-size: 24px;
+}
+.information{
+	margin-top:40px;
+}
+.columnaImagen{
+	background-color:#2980F2;
+}
+.columnaImagen img{
+	width :288px;
+	height:280px;
+	margin: 40px 200px;
+
+}
+.columnaTexto{
+	background-color:#6EAAF7;
+	color:#CFE2FC;
+}
+.box-information{
+	margin-top:20px;
+}
+
+.box-information h2{
+	font-size:48px;
+	text-decoration:underline;
+}
+.box-information p{
+	font-size: 24px;
+}
+/*El tablero*/
+
+.container{
+	margin-top:40px;	
+}
+table{
+	margin-left: 80px;
+}
+tbody{
+	height:400px;
+	color:#eee;
+	padding-left:40px;
+}
+tr,td{
+	text-align:center;
+	font-size:80px;
+	width:40px;
+	height:200px;
+	border: 4px solid #eee;
+}
+td:hover{
+	background-color:green;
+}
+
+
+/*Formulario Tateti*/
+.formularioTaTeTi{
+	text-align:center;
+	width:400px;
+	height:200px;
+	margin-left:530px;
+	margin-top:40px;
+	border-radius:20px;
+	padding-top:40px;
+	background-color:#6EAAF7;
+}
+.formularioTaTeTi h2:hover{
+	color:#eee;
+}
+
+.formularioTaTeTi .input{
+	width: 370px;
+	height: 80px;
+}
+.formularioTaTeTi .btn{
+	margin-top:20px;
+	background-color:#CFE2FC;
+	width:370px;
+}
+/*FOOTER*/
+footer{
+	background-color: rgb(48,48,48);
+	height:68px;
+}
+
+footer ul{
+	list-style-type: none;
+	padding-left:80px;
+}
+footer ul li{
+	color:#CFE2FC;
+	float:left;
+	font-size:28px;
+	margin-left:40px;
+	margin-top:14px;
+}
